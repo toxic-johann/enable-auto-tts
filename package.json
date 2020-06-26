@@ -1,6 +1,6 @@
 {
   "name": "enable-auto-tts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A script to let the web speech API can run programmatically under multiple platforms",
   "main": "lib/index.js",
   "scripts": {
