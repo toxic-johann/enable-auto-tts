@@ -1,0 +1,36 @@
+{
+  "name": "enable-auto-tts",
+  "version": "0.1.0",
+  "description": "A script to let the web speech API can run programmatically under multiple platforms",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc -d",
+    "lint": "eslint . --fix",
+    "compile-browser": "tsc -d --project tsconfig.browser.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxic-johann/enable-auto-tts.git"
+  },
+  "keywords": [
+    "tts",
+    "speech",
+    "speak",
+    "auto"
+  ],
+  "author": "toxic-johann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toxic-johann/enable-auto-tts/issues"
+  },
+  "homepage": "https://github.com/toxic-johann/enable-auto-tts#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
