@@ -23,9 +23,3 @@ import { enableAutoTTS } from 'enable-auto-tts';
 
 enableAutoTTS();
 ```
-
-Or import the autostart script
-
-```
-import { enableAutoTTS } from 'enable-auto-tts/auto';
-```
