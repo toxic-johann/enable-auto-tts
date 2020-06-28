@@ -9,6 +9,10 @@ You can see the detail in this question. https://stackoverflow.com/questions/321
 
 In order to fix this, I create this package. You can enable the auto TTS easily.
 
+### DEMO
+
+https://codepen.io/toxic-johann/pen/JjGrPzg You can check the code with this code pen.
+
 ### install
 ```
 npm install enable-auto-tts
