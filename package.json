@@ -3,11 +3,12 @@
   "version": "0.1.1",
   "description": "A script to let the web speech API can run programmatically under multiple platforms",
   "main": "lib/index.js",
+  "module": "module/index.js",
   "scripts": {
     "test": "jest",
     "compile": "tsc -d",
     "lint": "eslint . --fix",
-    "compile-browser": "tsc -d --project tsconfig.browser.json"
+    "compile-esm": "tsc -d --project tsconfig.esm.json"
   },
   "repository": {
     "type": "git",
